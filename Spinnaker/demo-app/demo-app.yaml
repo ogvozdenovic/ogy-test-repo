@@ -5,7 +5,7 @@ metadata:
   labels:
     app: demo-app
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
       app: demo-app
@@ -40,6 +40,6 @@ spec:
     app: demo-app
   type: LoadBalancer
 
-### TEST COMMIT 1
+### TEST COMMIT 3
 
 
